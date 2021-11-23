@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+main {
+    padding: 5rem 0;
+    background:  url('/img/poderosochefao-fundo.jpg') no-repeat;
+    background-size: cover;
+}
+/* fundo com opacidade */
+.gradient {
+    background: linear-gradient(rgba(61, 61, 61, 0.7),rgba(61, 61, 61, 0.7)100%);
+    margin-left: 2em;
+    margin-right: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+/* classe usada para estilizar titulos */
+.title {
+    color: white;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px black;
+}
+/* classe usada para espacar os items entre eles */
+.justify-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-imdb {
+    background-color: darkgoldenrod;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.paragrafo {
+    background: linear-gradient(rgba(77, 77, 77, 0.7),rgba(77, 77, 77, 0.7)100%);
+    width: 750px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.img-video {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+.description h4 {
+    color: white;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+.description h4 i {
+    background-color: rgb(41, 31, 78);
+    padding: 3px;
+}
+.media-movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.capa {
+    width: 180px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.media-movie i {
+    margin-right: 8px;
+    font-size: 30px;
+}
+.video {
+    width: 100%;
+}
+.video span {
+    font-size: 20px;
+    color: white;
+}
+

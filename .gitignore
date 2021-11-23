@@ -1,0 +1,5 @@
+# pastas para serem ignoradas
+.vscode/*
+obj/*
+bin/*
+img/*

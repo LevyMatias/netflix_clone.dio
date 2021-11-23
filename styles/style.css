@@ -1,0 +1,233 @@
+:root {
+    --yellow: #f0ff66;
+    --black: #171616;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+body {
+    max-width: 100%;
+    height: 100vh;
+    padding-top: 62px; /* padding usado para o calculo da header em relação ao browser com position fixed*/
+    background-color: rgba(48, 48, 48,1);
+}
+/* cabecalho da pagina */
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem 0;
+   
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background: linear-gradient(rgba(48, 48, 48, 0.7),rgba(48, 48, 48, 0.7)100%)
+}
+
+.logo-flix {
+    color: #f0ff66;
+    font-size: 2.5rem;
+}
+
+.nav-link {
+    position: relative;
+    color:var(--white);
+    padding: 0 8px;
+    border-radius: 2px;
+    transition: all ease .3s;
+    padding: 0 .8rem;
+}
+.nav-link::after {
+    content: "";
+    position: absolute;
+    background-color: var(--yellow);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(206, 206, 206, 0.3),rgba(206, 206, 206, 0.3)100%), url('/img/fundo-godfather.jpg') no-repeat;
+    background-position: 50% 60%;
+    background-size: contain, cover;
+    color:var(--white);
+}
+
+.container {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container h2 {
+    font-size: 3rem;
+    text-shadow: 3px 2px gray;
+    margin-bottom: 8px;
+}
+.container p {
+    width: 50%;
+}
+/* classificacao indicativa */
+.square {
+    border: solid white 1px;
+    padding: 5px;
+    background-color: darkgoldenrod;
+    color: var(--white);
+}
+
+.sinopse {
+    color: var(--yellow);
+}
+
+.margin-top {
+    margin-top: 1rem;
+}
+
+.button-inner {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.button {
+    padding: .7rem 1.4rem;
+    margin-right: .6rem;
+    color: var(--white);
+    border: solid var(--white) 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: .4s; 
+}
+
+button i {
+    margin-right: .6rem;
+    font-size: 1rem;
+}
+
+.button:hover {
+    border: var(--yellow) 2px solid;
+    color: var(--yellow);
+}
+
+.conteiner-film {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    padding-top: 1rem;
+}
+/* categoria dos filmes */
+.lista {
+    margin-left: 10px;
+    padding-bottom: 5px;
+    color: var(--white);
+}
+
+.capa-filme {
+    width: 100%;
+    height: 18rem;
+    margin: 0 10px;
+    position: relative;
+   
+}
+.capa-filme img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .6s ease;
+}
+
+.overlay .fa-play {
+    font-size: 30px;
+}
+.overlay:hover {
+    opacity: 1;
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+/*Rodapé da pagina*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 1rem 0;
+}
+
+.footer p {
+    font-size: 15px;
+    color:var(--white);
+    width: 50%;
+    text-align: center;
+    padding: 1rem 0;
+}
+    
+.social-media {
+    padding: 1rem;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-media i {
+    font-size: 2rem;
+    color: var(--white);
+    transition: .5s ease;
+    cursor: pointer;
+}
+.fa-instagram:hover {
+    color: #ed2895;
+}
+.fa-facebook-square:hover, .fa-twitter:hover {
+    color: #4371e6;
+}
+
+.fa-youtube:hover {
+   color: #d93d3d;
+}
+.fa-discord:hover {
+    color: #944fe8;
+}
+.fa-github:hover {
+    color: #adadad;
+}
+
+.copy {
+    color: var(--black);
+    background-color: #6e6e6e;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}

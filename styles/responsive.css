@@ -1,0 +1,84 @@
+/*media queries*/
+
+@media screen and (max-width: 770px) {
+    body {
+        padding-top: 97px; /* padding usado para o calculo da header em relação ao browser com position fixed */
+    }
+    .topo {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-flix{
+        margin: 0;
+    }
+    .top-nav{
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .container {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .container p {
+        width: 100%;
+        padding: 0 5rem;
+    }
+    .button-inner {
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .container {
+        padding: 0;
+    }
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+    .container p {
+        display: none;
+    }
+    .container h2 {
+        text-align: center;
+    }
+    .button-inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .button {
+        margin-top: 7px;
+        text-align: center;
+        width: 260px;
+    }  
+}
+
+/* responsividade da pagina do filme */
+@media screen and (max-width: 1220px) {
+    .justify-sb {
+        display: flex;
+        flex-direction: column;
+    }
+    .paragrafo {
+        width: 100%;
+    }
+    .img-video {
+        display: flex;
+        justify-content: center;
+    }
+    .media-movie .button {
+        width: 100%;
+        text-align: center;
+    }
+}
