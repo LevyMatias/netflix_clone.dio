@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Projeto Site Netflix - Cursos faz plano do **Bootcamp Avanade Angular**, junto com a plataforma *DIO*.
+Projeto Site Netflix - Cursos faz plano do **Bootcamp  Html web developer**, junto com a plataforma *DIO*.
 
 Consiste em um site com referência no Netflix.
 
@@ -11,7 +11,7 @@ Consiste em um site com referência no Netflix.
 ![Web 1](
 https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Captura%20netflix.clone.png
 )
-## Layout 
+## Layout web
 ![Web 2](
 https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Captura2.png
 )
@@ -24,7 +24,7 @@ https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Captura2.pn
 - JAVASCRIPT
 
 # Hospedagem
-https://aslac2020-clonenetflix.netlify.app/
+https://fliclassix.netlify.app/
 
 
 # Autor
@@ -32,4 +32,4 @@ https://aslac2020-clonenetflix.netlify.app/
 Levy Matias
 
 https://www.linkedin.com/in/levy-matias-439817219/
- 
+
