@@ -1,9 +1,35 @@
-## Página de filmes classicos estilo netflix.
+# Projeto Site Netflix
 
-### Projeto feito na [digital innovation one] (https://web.dio.me/track/html-web-developer?tab=path)
 
-### link do projeto original: [Github] (https://github.com/felipeAguiarCode/netflix-clone)
+# Sobre o projeto
 
-- aprendendo mais sobre posicionamento do layout com flexbox
-- aprendendo sobre responsividade
-- e aprendendo mais de css e html.
+Projeto Site Netflix - Cursos faz plano do **Bootcamp Avanade Angular**, junto com a plataforma *DIO*.
+
+Consiste em um site com referência no Netflix.
+
+## Layout web
+![Web 1](
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Captura%20netflix.clone.png
+)
+## Layout 
+![Web 2](
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Captura2.png
+)
+
+# Tecnologias utilizadas
+
+## Front end e Back end
+- HMTL
+- CSS
+- JAVASCRIPT
+
+# Hospedagem
+https://aslac2020-clonenetflix.netlify.app/
+
+
+# Autor
+
+Levy Matias
+
+https://www.linkedin.com/in/levy-matias-439817219/
+ 
