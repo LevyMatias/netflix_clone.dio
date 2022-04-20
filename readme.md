@@ -9,11 +9,11 @@ Consiste em um site com referência no Netflix.
 
 ## Layout web
 ![Web 1](
-https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Captura%20netflix.clone.png
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Netflix_clone/Captura%20netflix.clone.png
 )
 ## Layout web
 ![Web 2](
-https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Captura2.png
+https://github.com/LevyMatias/ImagensGithub/blob/main/img%20projetos/Netflix_clone/Captura2.png
 )
 
 # Tecnologias utilizadas
